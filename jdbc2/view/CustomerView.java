@@ -9,8 +9,8 @@ public class CustomerView {
     public  void  printCustomer(Customer customer ){
         System.out.printf("- 고객명: %s\n",customer.getCustomerName());
         System.out.printf("- 나이: %d\n",customer.getAge());
-        System.out.printf("- 등급: %d\n",customer.getLevel());
-        System.out.printf("- 직업: %d\n",customer.getJob());
+        System.out.printf("- 등급: %s\n",customer.getLevel());
+        System.out.printf("- 직업: %s\n",customer.getJob());
         System.out.printf("- 적립금: %d\n\n",customer.getReward());
 
 

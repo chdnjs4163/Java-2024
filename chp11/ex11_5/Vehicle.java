@@ -1,4 +1,4 @@
-package chp11.ex11_5;
+package chp11.ex11_5_6;
 
 public interface Vehicle {
 
